@@ -1,0 +1,149 @@
+/* index */
+#wp-container {
+    width: 1000px;
+    box-sizing: border-box;
+    margin: 0px auto;
+}
+
+#list-item {
+    background: #B0E0E6;
+    text-align: center;
+}
+
+.item {
+    background: #fff;
+    border-radius: 2px;
+    display: inline-block;
+    height: 300px;
+    margin: 16px;
+    position: relative;
+    width: 250px;
+    padding: 0px;
+    justify-content: center;
+}
+
+.item a {
+    text-align: center;
+    justify-content: center;
+}
+
+img {
+    width: 250px;
+    height: 300px;
+}
+@media screen and (max-width: 768px){
+    #wp-container{
+        width: 100%;
+    }
+    .item{
+        width: 250px;
+    }
+    img{
+        width: 250px;
+        height: 300px;
+    }
+}
+@media screen and (max-width: 480px){
+    #wp-container{
+        width: 100%;
+    }
+    .item{
+        width: 150px;
+    }
+    img{
+        width: 150px;
+        height: 200px;
+    }
+}
+
+
+/*trang con */
+
+#home i {
+    color:#444444;
+    font-size: 30px;
+}
+
+/**/
+
+body {
+    font-family: Open Sans;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 900;
+}
+
+
+
+#ques {
+    text-indent: 10px;
+    display: none;
+    min-height: 300px;
+}
+
+.btn {
+    border:1px solid;
+    border-radius:10px;
+    width: 50px;
+    height: 50px;
+    float:right;
+    background-color: #DCDCDC;
+    color: #444444;
+    font-size: 16px;
+    margin: 50px 10px 100px 10px;
+    justify-content: center;
+    padding: 0px;
+}
+
+.btn.active {
+    background-color: #F8F8FF;
+    color: #525252;
+}
+
+
+.btn a {
+    text-decoration: none;
+    color: #444444;
+}
+.btn i{
+    text-align: center;
+    font-size: 40px;
+}
+#container {
+    width: 50%;
+    margin: auto;
+    padding: 0 25px 40px 10px;
+    border: 1px solid #B0E0E6;
+    background: #B0E0E6;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #333344;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#before {
+    display: none;
+}
+
+#again {
+    display: none;
+    width: 90px;
+}
+
+input[type=radio] {
+    border: 1px solid #333;
+    padding: 0.5em;
+    -webkit-appearance: none;
+}
+
+input[type=radio]:checked {
+    background: url("/image/square.png") no-repeat center center;
+    background-size: 9px 9px;
+}
